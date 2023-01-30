@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+}
+.wd-bookmark-page{
+    margin-top: 12px;
+    margin-left: 16px;
+    border: 1px solid lightgray;
+
+}
+.wd-bookmark-title{
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    margin-left: 16px;
+}
+.wd-bookmark-author{
+    color: white;
+    font-size: 15px;
+    margin-top: 12px;
+    font-weight:bold;
+    display: inline-block;
+
+}
+.wd-bookmark-account{
+    color: lightgray;
+    margin-top:1px ;
+    font-size: 13px;
+    margin-left: 12px;
+}
+.wd-bookmark-account-2{
+    color: lightgray;
+    margin-top:12px ;
+    font-size: 13px;
+    margin-left: 1px;
+    display: inline-block;
+}
+
+.wd-bookmark-avatar{
+    height: 48px;
+    width:48px;
+    border-radius: 50%;
+    margin-left: 16px;
+
+}
+.wd-bookmark-content{
+    display: grid;
+    grid-template-columns:50px 506px auto;
+    column-gap: 16px;
+}
+.wd-bookmark-info{
+    display:  inline-grid;
+    grid-template-rows:15px auto auto;
+    margin-left: 16px;
+}
+.wd-bookmark-authorandaccount{
+    text-align: left;
+
+}
+.wd-bookmark-maincontent{
+    border: 1px solid lightgray;
+    border-radius: 2%;
+}
+.wd-bookmark-text{
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin-bottom: 12px;
+    margin-top: 25px;
+}
+.wd-bookmark-image{
+    width: 504px;
+    height:264px;
+    border-radius: 2% 2% 0% 0%;
+    margin-bottom: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-bookmark-content-title{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px;
+}
+
+.wd-bookmark-content-text{
+    color: lightgray;
+    padding: 12px;
+    max-width: 506px;
+    margin-top: 12px;
+}
+
+.wd-bookmark-icons {
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+    margin-right: 12px;
+
+}
+.wd-icon-group{
+
+    color: lightgray;
+}
+.wd-heart {
+    color: red;
+
+}
+.fa{
+    color: lightgray;
+}
+
+.fas{
+    color: lightgray;
+}
+
+.far{
+    color: lightgray;
+}
+.fa-heart{
+    color: red;
+}
