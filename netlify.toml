@@ -1,4 +1,5 @@
 [[headers]]
+  # Define which paths this specific [[headers]] block will cover.
   for = "/*"
     [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://stackpath.bootstrapcdn.com; style-src 'self' 'unsafe-inline' https://stackpath.bootstrapcdn.com; font-src 'self' 'unsafe-inline' https://stackpath.bootstrapcdn.com"
+    Access-Control-Allow-Origin = "*"
