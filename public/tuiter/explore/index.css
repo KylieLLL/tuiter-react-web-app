@@ -1,4 +1,11 @@
-.btn-primary.override-style {
+.wd-text-darkgray{
+    color: rgb(30,30,30);
+}
+
+
+
+
+/* .btn-primary.override-style {
     background-color: dodgerblue;
     color: white;
     font-weight: bolder;
@@ -55,7 +62,7 @@
 .wd-icon-gold {
     color: goldenrod;
 }
-
+*/
 
 
 
