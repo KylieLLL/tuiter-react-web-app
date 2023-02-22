@@ -1,0 +1,172 @@
+.btn-primary.override-style {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bolder;
+    border-style: hidden;
+}
+
+.fa-twitter {
+    color:dodgerblue;
+}
+
+.wd-selected {
+    font-weight: bolder;
+}
+
+.wd-border-hidden{
+    border-style: hidden;
+    border: 0;
+}
+
+.wd-background-grey {
+    background-color: whitesmoke;
+}
+
+.pill-selected {
+    color: black;
+    font-weight: bold;
+    border-bottom: solid 3px dodgerblue;
+}
+
+.wd-text-grey{
+    color: gray;
+}
+
+.wd-icon-black {
+    color: black;
+    font-size: medium;
+}
+
+.wd-rounded-corner {
+    border-radius: 25px;
+}
+
+.btn-primary.override-black {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-style: hidden;
+}
+
+.wd-icon-blue {
+    color: dodgerblue;
+}
+
+.wd-icon-gold {
+    color: goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: black;
+}
+.wd-border {
+    border: 1px solid rgb(47, 51, 54);
+}
+.wd-offset {
+    padding-left: 16px;
+}
+
+.wd-search-input {
+    background-color: darkgray;
+    color: white;
+    border-radius: 15px;
+    padding:5px;
+    margin-right: 12px;
+    width: 80%;
+}
+
+.wd-links-containers {
+    display: flex;
+    margin-top: 10px;
+    margin-right: auto;
+    padding: 16px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    width:80%;
+}
+
+.wd-active-link {
+    color: rgb(110, 118, 125);
+    margin-right: 6%;
+}
+.wd-selected-link {
+    color: rgb(29, 161, 242);
+    border-bottom-color: rgb(29, 161, 242);
+}
+.wd-header-component{
+    display: flex;
+}
+
+.wd-suggested-posts-container {
+    margin-top: 10px;
+}
+
+.wd-suggested-posts {
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.wd-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+
+}
+
+.wd-title {
+    font-size: 16px;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.wd-tuits-count {
+    font-size: 13px;
+    color: lightgray;
+    margin-top: 2px;
+}
+
+.wd-author {
+    color: white;
+    margin-top:10px ;
+}
+.wd-date {
+    color: lightgray;
+    font-size: 10px;
+    display: inline-block;
+}
+.wd-paragraph {
+    color:white;
+    font-size: 15px;
+    margin-top:20px;
+}
+
+.wd-author-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    margin-right: 16px;
+    justify-content: right;
+}
+
+.wd-text{
+    flex-grow: 4;
+}
+
+*/
+
+
