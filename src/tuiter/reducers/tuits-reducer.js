@@ -7,6 +7,7 @@ const initialState = {
     tuits:[],
     loading: false
 }
+
 const currentUser = {
     "userName": "NASA",
     "handle": "@nasa",
