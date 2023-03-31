@@ -6,8 +6,9 @@ import { useDispatch, useSelector } from "react-redux";
 
 const TuitList = () => {
     const {tuits, loading} = useSelector( state => state.tuitsData );
-    const dispatch = useDispatch();
-    useEffect(() => { dispatch(findTuitsThunk()) }, [])
+    useEffect(() => {
+        const dispatch = useDispatch();
+        dispatch(findTuitsThunk()) }, [])
     return(
         <ul className="list-group">
             {
