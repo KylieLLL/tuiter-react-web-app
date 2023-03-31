@@ -6,9 +6,10 @@ import { useDispatch, useSelector } from "react-redux";
 
 const TuitList = () => {
     const {tuits, loading} = useSelector( state => state.tuitsData );
+    const dispatch = useDispatch();
     useEffect(() => {
-        const dispatch = useDispatch();
-        dispatch(findTuitsThunk()) }, [])
+        dispatch(findTuitsThunk()) }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     return(
         <ul className="list-group">
             {
